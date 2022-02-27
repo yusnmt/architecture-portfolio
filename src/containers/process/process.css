@@ -1,0 +1,14 @@
+.ap__process {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ap__process-header {
+    margin-bottom: 20px;
+}
+
+.ap__process-content img {
+    width: 100%;
+}

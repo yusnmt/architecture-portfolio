@@ -1,0 +1,15 @@
+.ap__plan-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.ap__plan-container__title {
+    color: #fff;
+}
+
+.ap__plan-container__image img {
+    width: 250px;
+}

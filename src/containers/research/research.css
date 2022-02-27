@@ -23,6 +23,8 @@
 
 .ap__research-content__gans,
 .ap__research-content__pix2pix {
+    flex: 1;
+    margin: 0px 50px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -56,5 +58,10 @@
 @media screen and (max-width:480px) {
     .ap__research-content {
         flex-direction: column;
+    }
+
+    .ap__research-content__gans,
+    .ap__research-content__pix2pix {
+        margin: 0 0 40px 0;
     }
 }

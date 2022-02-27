@@ -5,10 +5,10 @@ import './navbar.css'
 const Menu = () => (
   <>
   <p><a href='#home'>Home</a></p>
-  <p><a href='#home'>Background</a></p>
-  <p><a href='#home'>Creative AI</a></p>
-  <p><a href='#home'>Design Process</a></p>
-  <p><a href='#home'>Architecture</a></p>
+  <p><a href='#research'>Background</a></p>
+  <p><a href='#creativeAI'>Creative AI</a></p>
+  <p><a href='#process'>Design Process</a></p>
+  <p><a href='#architecture'>Architecture</a></p>
   <p><a href='#home'>Perspective</a></p>
   </>
 )
