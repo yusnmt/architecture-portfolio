@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar } from './components'
-import { Architecture, CreativeAI, Footer, Header, Perspective, Process, Research } from './containers'
+import { Architecture, CreativeAI, Footer, Header, Perspective, Process, Research, Profile } from './containers'
 import './App.css';
 
 const App = () => {
@@ -15,6 +15,7 @@ const App = () => {
         <Process />
         <Architecture />
         <Perspective />
+        <Profile />
         <Footer />
     </div>
   )

@@ -31,65 +31,11 @@
     margin-top: 1.5rem;
 }
 
-.ap__header-content__input {
-    width: 100%;
-    margin: 2rem 0 1rem;
-
-    display: flex;
-}
-
-.ap__header-content__input input {
-    flex: 2;
-    width: 100%;
-    min-height: 50px;
-    font-family: var(--font-familiy);
-    font-size: 20px;
-    line-height: 27px;
-    background: var(--color-footer);
-    border: 2px solid var(--color-footer);
-    padding: 0 1rem;
-    outline: none;
-    color: #fff;
-
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-.ap__header-content__input button {
-    flex: 0.6;
-    width: 100%;
-    min-height: 50px;
-    font-family: var(--font-family);
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 27px;
-    background: #29ddb0;
-    color: #fff;
-    cursor: pointer;
-    outline: none;
-    padding: 0 1rem;
-    border: none;
-
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-.ap__header-content__people {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: row;
-
+.ap__header-content__profile {
     margin-top: 2rem;
 }
 
-.ap__header-content__people img {
-    width: 181.79px;
-    height: 38px;
-}
-
-.ap__header-content__people p {
+.ap__header-content__profile p {
     margin: 0;
     font-family: var(--font-family);
     font-weight: 500;
@@ -131,35 +77,23 @@
         line-height: 24px;
     }
 
-    .ap__header-content__people {
+    .ap__header-content__profile {
         flex-direction: column;
     }
 
-    .ap__header-content__people p {
+    .ap__header-content__profile p {
         margin: 0;
-    }
-
-    .ap__header-content__input input,
-    .ap__header-content__input button {
-        font-size: 16px;
-        line-height: 24px;
     }
 }
 
 @media screen and (max-width: 490px) {
     .ap__header-content h1 {
-        font-size: 28px;
+        font-size: 22px;
         line-height: 48px;
     }
 
     .ap__header-content p {
         font-size: 14px;
         line-height: 24px;
-    }
-
-    .ap__header-content__input input,
-    .ap__header-content__input button {
-        font-size: 12px;
-        line-height: 16px;
     }
 }

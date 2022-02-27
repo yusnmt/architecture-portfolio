@@ -50,7 +50,7 @@
     text-align: center;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:800px) {
     .ap__creativeAI {
         flex-direction: column;
     }
@@ -63,5 +63,13 @@
         flex-direction: column;
         align-items: center;
         margin: 0 0 40px 0;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .ap__creativeAI-first h2,
+    .ap__creativeAI-second h2,
+    .ap__creativeAI-third h2 {
+        font-size: 18px;
     }
 }

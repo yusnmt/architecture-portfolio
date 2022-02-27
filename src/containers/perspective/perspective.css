@@ -1,0 +1,49 @@
+.ap__perspective {
+    display: flex;
+    flex-direction: column;
+}
+
+.ap__perspective-exterior {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.ap__perspective-exterior__pers1,
+.ap__perspective-exterior__pers2 {
+    flex: 1;
+}
+
+.ap__perspective-exterior__pers1 img,
+.ap__perspective-exterior__pers2 img {
+    width: 100%;
+}
+
+.ap__perspective-interior {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.ap__perspective-interior__pers3,
+.ap__perspective-interior__pers4 {
+    flex: 1;
+}
+
+.ap__perspective-interior__pers3 img,
+.ap__perspective-interior__pers4 img {
+    width: 100%;
+}
+
+@media screen and (max-width: 320px) {
+    /* Customizing feature component as per needs */
+    .ap__perspective-exterior {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ap__perspective-interior {
+        display: flex;
+        flex-direction: column;
+    }
+}

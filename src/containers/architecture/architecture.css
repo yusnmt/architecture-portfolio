@@ -30,16 +30,39 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 50px;
 }
 
 .ap__architecture-model img {
+    margin-top: 10px;
     width: 50%;
 }
 
+.ap__architecture-model h2 {
+    margin-bottom: 20px;
+}
+
+.ap__architecture-model p{
+    color: var(--color-text);
+    text-align: center;
+}
+
 @media screen and (max-width:480px) {
+    .ap__architecture-heading h2 {
+        font-size: 18px;
+    }
     .ap__architecture-plan__row1,
     .ap__architecture-plan__row2,
     .ap__architecture-plan__row3 {
         flex-direction: column;
+    }
+
+    .ap__architecture-model img {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .ap__architecture-model h2 {
+        font-size: 18px;
     }
 }

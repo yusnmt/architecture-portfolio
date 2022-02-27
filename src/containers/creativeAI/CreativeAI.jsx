@@ -14,7 +14,7 @@ const CreativeAI = () => {
         <p>平家建て住居ブロックプランデータ200枚を学習し、設計者によるデザインの種となるかたちからBlock Planを生成するShape2Block AI</p>
       </div>
       <div className='ap__creativeAI-second'>
-        <h2 className='gradient__text'>Block2Plan AI</h2>
+        <h2 className='gradient__text'>Block2Floor AI</h2>
         <img src={ai2} alt='ai2' />
         <p>平家建て住居Floor Planデータ200枚を学習し、Block PlanからFloor Planを生成するBlock2Floor AI</p>
       </div>

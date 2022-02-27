@@ -4,4 +4,5 @@ export { default as Footer } from './footer/Footer';
 export { default as Header } from './header/Header';
 export { default as Perspective } from './perspective/Perspective';
 export { default as Process } from './process/Process';
+export { default as Profile} from './profile/Profile';
 export { default as Research } from './research/Research';
