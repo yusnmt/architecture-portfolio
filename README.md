@@ -22,4 +22,4 @@
 * ライブラリ：React
 
 ## プレゼンテーションボード
-![Alt text](/assets/graducation_work.jpg)
+![portfolio_board](https://user-images.githubusercontent.com/87215668/155883613-45ccea8c-5680-4af5-9660-8fd3c9345795.png)
