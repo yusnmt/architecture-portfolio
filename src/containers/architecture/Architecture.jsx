@@ -2,7 +2,8 @@ import React from 'react'
 import './architecture.css'
 
 import { Plan } from '../../components';
-import { plan1, plan2, plan3, plan4, plan5, plan6, plan7, plan8, plan9 } from './imports'
+import { plan1, plan2, plan3, plan4, plan5, plan6, plan7, plan8, plan9 } from './imports';
+import model from '../../assets/perspective.png';
 
 const Architecture = () => {
   return (
@@ -28,7 +29,7 @@ const Architecture = () => {
         </div>
       </div>
       <div className='ap__architecture-model'>
-
+        <img src={model} alt='model' />
       </div>
     </div>
   )
